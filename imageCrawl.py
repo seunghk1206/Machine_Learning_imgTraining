@@ -26,4 +26,4 @@ for i in img:
             h.write(img)
     print("Finished dowloading", n, "번째", imgUrl)
     n += 1
-print('Downloaded all.')
+print('Job done!')
