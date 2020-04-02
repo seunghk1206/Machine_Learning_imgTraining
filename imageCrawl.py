@@ -15,7 +15,7 @@ soup = BeautifulSoup(html, 'html.parser')#html변수 에 저장했던 주소를 
 img = soup.find_all(class_="_img")
 
 print(img[0])
-folder = './' + input('folder name:') + '/'
+folder = './' + plusUrl + '/'
 n = 1
 for i in img:
    # print(i["data-source"])
