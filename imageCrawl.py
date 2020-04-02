@@ -15,13 +15,13 @@ soup = BeautifulSoup(html, 'html.parser')#html변수 에 저장했던 주소를 
 img = soup.find_all(class_="_img")
 
 print(img[0])
-
+folder = './' + input('folder name:') + '/'
 n = 1
 for i in img:
    # print(i["data-source"])
     imgUrl = i["data-source"]
     with urlopen(imgUrl) as f: #f = urlopen(imgUrl)
-        with open('./img/'+plusUrl + str(n) + '.jpg', 'wb') as h: #image file = binary 0101010101000001010 
+        with open(folder + plusUrl + str(n) + '.jpg', 'wb') as h: #image file = binary 0101010101000001010 
             img = f.read()
             h.write(img)
     print("Finished dowloading", n, "번째", imgUrl)
