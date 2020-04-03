@@ -1,4 +1,4 @@
-![pygame_logo](https://user-images.githubusercontent.com/60473607/74948251-027e7d80-5437-11ea-8212-ac3d39db7e3d.png)
+![]()
 
 ***image training***
 
@@ -6,7 +6,7 @@
 
 > python 3.6.8
 
-> lib : pygame
+> lib : BS4, 
 
 -----------
 ![firstPygame](https://user-images.githubusercontent.com/60473607/74947797-5a68b480-5436-11ea-90a7-f2f5506c1611.png)
